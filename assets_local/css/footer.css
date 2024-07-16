@@ -12,3 +12,15 @@
     float: right; /* Use float property */
     margin-left : 5px;
 }
+
+#toggler{
+    width: 30px;
+    height: 30px;
+    background-image: url('../images/bulb.png');
+    background-repeat: no-repeat;
+    background-size:cover;
+    border-radius: 10px;
+}
+#toggler:focus {
+    outline:none;   
+}
